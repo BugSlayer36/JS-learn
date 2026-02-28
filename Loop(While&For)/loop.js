@@ -59,17 +59,17 @@
     For n = 10 the result will be 2,3,5,7.
     P.S. The code should work for any n, not be hard-tuned for any fixed value.
 */
-let n = prompt("Please enter N: ", '');
+// let n = prompt("Please enter N: ", '');
 
-for (let i = 2; i <= n; i++) {
-    let result = true;
-    for (let j = 2; j <= Math.sqrt(i); j++) {
-        if (i % j === 0) {
-            result = false;
-            break;
-        }
-    }
-    if (result) {
-        console.log(i);
-    }
-}
+// for (let i = 2; i <= n; i++) {
+//     let result = true;
+//     for (let j = 2; j <= Math.sqrt(i); j++) {
+//         if (i % j === 0) {
+//             result = false;
+//             break;
+//         }
+//     }
+//     if (result) {
+//         console.log(i);
+//     }
+// }
